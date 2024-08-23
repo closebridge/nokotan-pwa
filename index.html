@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikanoko Nokonoko Koshitantan PWA</title>
+    <script src="/static/script/script.js"></script>
+    <link rel="stylesheet" href="static/style/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="/static/element/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="front_text">Shikanoko Nokonoko Koshitantan</h1>
+    <h2 class="front_text">GOES BRRRRRRR</h2>
+
+    <div id="video_playback">
+        <video id="video" src="/static/element/main.mp4" alt="im sorry"></video>
+    </div><br>
+
+    <div id="buttons">
+        <button onclick="videoPlaybackHandler(state=true)">Play unlimited</button>
+        <button onclick="videoPlaybackHandler(state=false)">Stop Brainrot</button>
+    </div>
+
+    <p>*Close the app to stop the spread of brainrot!</p>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "name": "Shikanoko Nokonoko Koshitantan",
+    "short_name": "Shikanoko Nokonoko Koshitantan",
+    "description": "brainrot maxxing, but on PWA",
+    "start_url": "/index",
+    "lang": "en-US",
+    "display": "standalone",
+    "background_color": "#000000",
+    "orientation": "portrait",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/static/element/favicon.png",
+            "type": "image/png",
+            "sizes": "150x150"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/static/element/screenshot0.png",
+            "sizes": "1386x994",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "greatest misery"
+        },
+        {
+            "src": "/static/element/what even the f this is.jpg",
+            "sizes": "1386x994",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "yattaa"
+        }
+    ]
+}
